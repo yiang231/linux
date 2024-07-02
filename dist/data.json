@@ -202,7 +202,7 @@
   "bunzip2": {
     "n": "bunzip2",
     "p": "/bunzip2",
-    "d": "创一个bz2文件压缩包"
+    "d": "可解压缩.bz2格式的压缩文件。 "
   },
   "bye": {
     "n": "bye",
@@ -212,7 +212,7 @@
   "bzcat": {
     "n": "bzcat",
     "p": "/bzcat",
-    "d": "解压缩指定的.bz2文件"
+    "d": "不解压，直接查看指定的.bz2文件"
   },
   "bzcmp": {
     "n": "bzcmp",
@@ -364,6 +364,11 @@
     "p": "/colrm",
     "d": "删除文件中的指定列"
   },
+  "column": {
+    "n": "column",
+    "p": "/column",
+    "d": "按列格式化输出文件"
+  },
   "comm": {
     "n": "comm",
     "p": "/comm",
@@ -403,6 +408,11 @@
     "n": "cpio",
     "p": "/cpio",
     "d": "用来建立、还原备份档的工具程序"
+  },
+  "createrepo": {
+    "n": "createrepo",
+    "p": "/createrepo",
+    "d": "创建YUM仓库"
   },
   "crontab": {
     "n": "crontab",
@@ -543,6 +553,11 @@
     "n": "dnsdomainname",
     "p": "/dnsdomainname",
     "d": "定义DNS系统中FQDN名称的域名"
+  },
+  "docker": {
+    "n": "docker",
+    "p": "/docker",
+    "d": "容器化技术，可以将应用程序及其依赖项打包到一个可移植的容器中，使其可以在不同的环境中运行"
   },
   "domainname": {
     "n": "domainname",
@@ -797,7 +812,7 @@
   "fsck": {
     "n": "fsck",
     "p": "/fsck",
-    "d": "检查并且试图修复文件系统中的错误"
+    "d": "fsck（英文全拼：file system check）命令检查并且试图修复文件系统中的错误"
   },
   "ftp": {
     "n": "ftp",
@@ -853,6 +868,11 @@
     "n": "getenforce",
     "p": "/getenforce",
     "d": "显示当前SELinux的应用模式，是强制、执行还是停用"
+  },
+  "getent": {
+    "n": "getent",
+    "p": "/getent",
+    "d": "查询 DNS 名称服务器中的命名空间"
   },
   "getsebool": {
     "n": "getsebool",
@@ -924,6 +944,16 @@
     "p": "/grub",
     "d": "多重引导程序grub的命令行shell工具"
   },
+  "grub2-mkconfig": {
+    "n": "grub2-mkconfig",
+    "p": "/grub2-mkconfig",
+    "d": "生成 grub.cfg 配置文件。"
+  },
+  "grub2-set-default": {
+    "n": "grub2-set-default",
+    "p": "/grub2-set-default",
+    "d": "设置系统默认的启动内核"
+  },
   "gunzip": {
     "n": "gunzip",
     "p": "/gunzip",
@@ -943,6 +973,11 @@
     "n": "halt",
     "p": "/halt",
     "d": "关闭正在运行的Linux操作系统"
+  },
+  "hcitool": {
+    "n": "hcitool",
+    "p": "/hcitool",
+    "d": "hcitool是一个Linux命令行工具，用于管理和调试蓝牙设备。它可以用于扫描周围的蓝牙设备、连接到蓝牙设备发送命令和数据包等。"
   },
   "hdparm": {
     "n": "hdparm",
@@ -1158,6 +1193,11 @@
     "n": "iptstate",
     "p": "/iptstate",
     "d": "显示iptables的工作状态"
+  },
+  "iscsiadm": {
+    "n": "iscsiadm",
+    "p": "/iscsiadm",
+    "d": "管理iSCSI连接"
   },
   "ispell": {
     "n": "ispell",
@@ -1519,6 +1559,11 @@
     "p": "/mkbootdisk",
     "d": "可建立目前系统的启动盘"
   },
+  "mkcert": {
+    "n": "mkcert",
+    "p": "/mkcert",
+    "d": "用来生成自签证书的工具"
+  },
   "mkdir": {
     "n": "mkdir",
     "p": "/mkdir",
@@ -1559,6 +1604,11 @@
     "p": "/mktemp",
     "d": "创建临时文件供shell脚本使用"
   },
+  "modetest": {
+    "n": "modetest",
+    "p": "/modetest",
+    "d": "DRM/KMS驱动程序libdrm中的模式测试工具"
+  },
   "modprobe": {
     "n": "modprobe",
     "p": "/modprobe",
@@ -1583,6 +1633,11 @@
     "n": "mtools",
     "p": "/mtools",
     "d": "显示mtools支持的指令"
+  },
+  "mtr": {
+    "n": "mtr",
+    "p": "/mtr",
+    "d": "`mtr`结合了`traceroute`和`ping`程序的功能，是一款简单的网络诊断工具。  "
   },
   "mv": {
     "n": "mv",
@@ -1627,7 +1682,7 @@
   "nc": {
     "n": "nc",
     "p": "/nc",
-    "d": "用于设置路由器，是网络工具中的瑞士军刀。"
+    "d": "nc是网络工具中的瑞士军刀"
   },
   "ncftp": {
     "n": "ncftp",
@@ -1739,6 +1794,11 @@
     "p": "/openssl",
     "d": "强大的安全套接字层密码库"
   },
+  "pacman": {
+    "n": "pacman",
+    "p": "/pacman",
+    "d": "Arch Linux 系统及其衍生系统中默认使用的包管理器"
+  },
   "parted": {
     "n": "parted",
     "p": "/parted",
@@ -1812,7 +1872,22 @@
   "ping": {
     "n": "ping",
     "p": "/ping",
-    "d": "测试主机之间网络的连通性"
+    "d": "测试主机之间网络的连通性(ipv4)"
+  },
+  "ping6": {
+    "n": "ping6",
+    "p": "/ping6",
+    "d": "测试主机之间网络的连通性(ipv6)"
+  },
+  "pip": {
+    "n": "pip",
+    "p": "/pip",
+    "d": "Python 编程语言中的包管理器，用于安装和管理第三方 Python 模块"
+  },
+  "pkexec": {
+    "n": "pkexec",
+    "p": "/pkexec",
+    "d": "以其他用户身份执行命令"
   },
   "pkill": {
     "n": "pkill",
@@ -1853,6 +1928,11 @@
     "n": "protoize",
     "p": "/protoize",
     "d": "GNU-C代码转换为ANSI-C代码"
+  },
+  "prtstat": {
+    "n": "prtstat",
+    "p": "/prtstat",
+    "d": "显示进程信息"
   },
   "ps": {
     "n": "ps",
@@ -1934,6 +2014,11 @@
     "p": "/pwd",
     "d": "显示当前工作目录的绝对路径。"
   },
+  "pwdx": {
+    "n": "pwdx",
+    "p": "/pwdx",
+    "d": "用于显示指定进程的当前工作目录"
+  },
   "pwunconv": {
     "n": "pwunconv",
     "p": "/pwunconv",
@@ -2003,6 +2088,11 @@
     "n": "renice",
     "p": "/renice",
     "d": "修改正在运行的进程的调度优先级"
+  },
+  "reposync": {
+    "n": "reposync",
+    "p": "/reposync",
+    "d": "同步yum存储库到本地目录"
   },
   "repquota": {
     "n": "repquota",
@@ -2214,6 +2304,11 @@
     "p": "/sh",
     "d": "shell命令解释器"
   },
+  "sha256sum": {
+    "n": "sha256sum",
+    "p": "/sha256sum",
+    "d": "用于计算文件的 SHA-256 哈希值"
+  },
   "shift": {
     "n": "shift",
     "p": "/shift",
@@ -2258,6 +2353,11 @@
     "n": "slocate",
     "p": "/slocate",
     "d": "命令查找文件或目录"
+  },
+  "smartmontools": {
+    "n": "smartmontools",
+    "p": "/smartmontools",
+    "d": "Smartmontools 是一种硬盘检测工具，通过控制和管理硬盘的SMART（Self Monitoring Analysis and Reporting Technology，自动检测分析及报告技术）技术来实现的"
   },
   "smbclient": {
     "n": "smbclient",
@@ -2343,6 +2443,11 @@
     "n": "sshd",
     "p": "/sshd",
     "d": "openssh软件套件中的服务器守护进程"
+  },
+  "sshpass": {
+    "n": "sshpass",
+    "p": "/sshpass",
+    "d": "免交互 SSH 登录工具。"
   },
   "startx": {
     "n": "startx",
@@ -2462,7 +2567,7 @@
   "tcpreplay": {
     "n": "tcpreplay",
     "p": "/tcpreplay",
-    "d": "将PCAP包重新发送，用于性能或者功能测试"
+    "d": "将保存在 PCAP 文件包重新发送，用于性能或者功能测试"
   },
   "tee": {
     "n": "tee",
